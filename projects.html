@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mina project</title>
+</head>
+
+<body class="myProjects">
+
+    <!--Site Header start-->
+    <header class="hero-2">
+        <!--Input and Label tags are for the hamburger menu on smaller devices-->
+        <input id="nav-toggle" type="checkbox">
+
+        <nav>
+            <a href="./Index.html">
+                <h2 class="logo">Portfo<span>lio</span></h2>
+            </a>
+            <ul class="menu">
+                <li><a href="https://www.github.com/ixicute" target="_blank" class="github-btn-menu">Github sidan</a>
+                </li>
+                <li><a href="./Index.html">Hem</a></li>
+                <li><a href="./projects.html" class="active">Mina Projekt</a></li>
+                <li><a href="./about.html">Om Mig</a></li>
+                <li><a href="./cv.html">CV</a></li>
+                <li><a href="./projectArticle.html">Tillgänglighet</a></li>
+            </ul>
+            <a href="https://www.github.com/ixicute" target="_blank" class="github-btn-main">Github sidan</a>
+        </nav>
+
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+
+    </header>
+    <!--Site Header end-->
+
+    <!--Pop up section Start-->
+    <section>
+        <article class="popup" id="bank">
+            <div class="popuphead">
+                <h2>Grupparbete - Banksystem</h2>
+                <a href="#bank-system" class="close">&times;</a>
+            </div>
+
+            <p>Vår bankapplikation erbjuder en säker och enkel upplevelse för användarna. Användare måste logga in med ett unikt
+                användarnamn och lösenord, och administratörer kan skapa nya användare. Användare som misslyckas med inloggningen
+                tre gånger kommer att låsas ut från systemet. Användare kan se en lista med alla sina bankkonton och saldot, föra
+                över pengar mellan två konton, öppna nya konton, ha konton i olika valutor och se rätt växelkurs som uppdateras
+                dagligen av bankens administratör. De kan också öppna ett sparkonto och låna av banken med en begränsning på att
+                låna högst 5 gånger de pengar de redan har i banken. En logg på alla transaktioner finns tillgänglig för användare.
+                Bankens app ser snygg ut med tydliga menyer, färgsättning och en snygg ASCII-art logga vid inloggning.<br><br>
+                Med det här projektet fick jag lära mig mer om versionshantering och git samt github.<br>
+                Applikationen utveckaldes med C# och .NET
+            </p>
+        </article>
+
+        <article class="popup" id="database">
+            <div class="popuphead">
+                <h2>Skolprojekt - Databashantering</h2>
+                <a href="#dbproject" class="close">&times;</a>
+            </div>
+            
+            <p>Applikationen har en meny där man kan välja att visa olika data efterfrågade av skolan. Skolan har möjlighet att ta
+                fram en översikt över all personal, inklusive namn, befattning och anställningstid. Administratören kan även spara
+                ner information om ny personal. Vi sparar ner information om elever, inklusive klass och betyg, samt läraren som
+                satte betyget. Applikationen visar även information om antal lärare på de olika avdelningarna, samt en lista över
+                alla aktiva kurser. Vi visar också utbetalningar och medellön för de olika avdelningarna. Vi har även en Stored
+                Procedure för att hämta viktig information om en elev och en Transactions-funktion för att sätta betyg på elever.
+            </p>
+        </article>
+
+        <article class="popup" id="zoo">
+            <div class="popuphead">
+                <h2>Skolprojekt - Djurgård</h2>
+                <a href="#oop" class="close">&times;</a>
+            </div>
+            <p>Detta program är en praktisk övning på objektorienterade koncepter, särskilt arv. Målet med uppgiften är att tänka ut en
+            lämplig arvstruktur och delvis implementera den i kod.
+            Programmet handlar om hanteringen av djur på ett zoo. En bas-klass med namnet "Djur" har skapats. Denna klass innehåller
+            minst fem egenskaper som alla djur delar med varandra samt minst tre metoder som alla djur har gemensamt.
+            Minst tre olika djur har skapats, som ärver från "Djur"-klassen. Varje djur har implementerat minst en ny egenskap och
+            minst en ny metod, och har också defaultvärden för egenskaperna. Alla djur har också en metod med namnet "makeSound()"
+            som skriver ut djurets läte i konsolen.
+            En av djuren har delats upp i två nya klasser, vilket resulterar i arv i två nivåer. Till exempel har Hunden blivit
+            Bulldog och Chihuahua, varje variant har implementerat en unik egenskap och metod.
+            Main-metoden innehåller initiering av flera olika djur, så att de kan göra sina ljud och bekräfta att de har låtit i
+            konsolen.
+            </p>
+        </article>
+    </section>
+    <!--Pop up section Ends-->
+
+
+    <main class="container">
+
+        <!--Boxes area start-->
+        <section class="card-box">
+
+            <article class="card">
+                <img class="pic"
+                    src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5 id="bank-system">Bank-system</h5>
+                    <p>Ett spännande grupparbete där jag fick lära mig samarbeta med andra och öva på
+                        att arbeta i grupp. Resultatet blev gott och jag lärde mig mycket om versionshantering
+                        samt git och github!
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#bank">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="pic"
+                    src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5 id="dbproject">Databaser & SQL</h5>
+                    <p>Ett spännande projekt där jag lärde mig mycket om databashantering och att skriva SQL samt fick
+                         träna mycket på att jobba med Entity Framework och ADO.NET både med en databas-först metod
+                        men även en kod-först metod.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#database">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="pic"
+                    src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5 id="oop">OOP & C#</h5>
+                    <p>I det här projektet fick jag öva mycket på att arbeta objektorienterat med C#.
+                        Här gällde även att applicera kunskaperna om bland annat ARV samt att påvisa det vi har lärt oss
+                        under kursen.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#zoo">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="pic"
+                    src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5>Mer Projekt</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laudantium iste quis accusamus fuga itaque ab ipsa veritatis
+                        sed quae perferendis. Laudantium iste quis accusamus fuga
+                        itaque ab ipsa veritatis.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="pic"
+                    src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5>Mer Projekt</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laudantium iste quis accusamus fuga itaque ab ipsa veritatis
+                        sed quae perferendis. Laudantium iste quis accusamus fuga
+                        itaque ab ipsa veritatis.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="pic" 
+                src="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg" alt="cute animated bunny coding">
+                
+                <div class="card-text">
+                    <h5>Mer Projekt</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laudantium iste quis accusamus fuga itaque ab ipsa veritatis
+                        sed quae perferendis. Laudantium iste quis accusamus fuga
+                        itaque ab ipsa veritatis.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Läs Mer</a>
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!--Boxes area ends-->
+
+    </main>
+
+    <footer>
+        <p>Aldor Besher</p>
+        <p>Vill du veta mer om vad jag har för mig så får du jätte gärna kolla
+            upp mig på följande kanaler:
+        </p>
+
+        <section class="network">
+            <a href="https://www.facebook.com/vladimir.lecter.7"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/ixicute/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/aldorb/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </section>
+
+        <p class="copyright">Skapat av Aldor © 2023</p>
+    </footer>
+</body>
+
+</html>
