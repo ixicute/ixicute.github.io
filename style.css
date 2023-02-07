@@ -864,7 +864,7 @@ footer p:nth-child(2) {
     }
 
     .card {
-        width: 22em;
+        width: 16.5em;
     }
 
     .title {
@@ -899,6 +899,10 @@ footer p:nth-child(2) {
 
     .blog-post h1{
         font-size: 2.5rem;
+    }
+    
+    .popup {
+        overflow-y: scroll;
     }
 }
 
