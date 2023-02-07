@@ -902,6 +902,10 @@ footer p:nth-child(2) {
     }
     
     .popup {
+        width: 95%;
+        top: 8%;
+        left: 3%;
+        height: 45vh;
         overflow-y: scroll;
     }
 }
