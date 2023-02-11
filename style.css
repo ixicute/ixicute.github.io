@@ -145,6 +145,10 @@ h4 {
     position: relative;
 }
 
+.contact form  {
+    display: none;
+}
+
 .contact form input:first-child {
     display: inline-block;
     width: 100%;
@@ -159,7 +163,7 @@ h4 {
     display: inline-block;
     outline: none;
     border: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 30px;
     background-color: #f9004d;
     color: white;
@@ -175,7 +179,7 @@ h4 {
 
 
 
-button {
+button, .about-text a {
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -186,7 +190,7 @@ button {
     transition: .4s;
 }
 
-button:hover {
+button:hover, .about-text a:hover {
     background-color: transparent;
     border: 2px solid #f9004d;
 }
@@ -422,6 +426,27 @@ footer p:nth-child(2) {
     opacity: 1;
     visibility: visible;
     transition-delay: 0s;
+}
+
+.popup .button {
+    margin-top: 1.5em;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.popup .button:hover {
+    background-color:#191919;
+    border: 2px solid #f9004d;
+}
+
+.popup .btn {
+    margin: 2em 0 2em 0;
 }
 
 /* Begin of about.html */
@@ -753,6 +778,15 @@ footer p:nth-child(2) {
     margin-top: 0;
     padding-top: .5em;
     text-align: center;
+}
+
+.post-title {
+    display: flex;
+    justify-content: center;
+}
+
+.post-title h1 {
+    max-width: 90%;
 }
 
 .blog-post p{
