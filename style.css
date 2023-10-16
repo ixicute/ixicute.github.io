@@ -899,6 +899,7 @@ footer p:nth-child(2) {
 
     .card {
         width: 16.5em;
+        overflow: scroll;
     }
 
     .title {
