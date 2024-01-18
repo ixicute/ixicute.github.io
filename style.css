@@ -750,6 +750,7 @@ footer p:nth-child(2) {
 }
 
 .icon-burger {
+    padding-top: 30px;
     display: none;
     position: absolute;
     top: 4%;
